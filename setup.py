@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name='tap-exacttarget',
     version='1.7.1',
-    description='Singer.io tap for extracting data from the ExactTarget API',
+    description='Singer.io tap for extracting data from the ExactTarget API -- Updated to Salesforce-FuelSDK-Sans',
     author='Fishtown Analytics',
     url='http://fishtownanalytics.com',
     classifiers=['Programming Language :: Python :: 3 :: Only'],
@@ -15,7 +15,7 @@ setup(
         'singer-python==5.12.1',
         'python-dateutil==2.6.0',
         'voluptuous==0.10.5',
-        'Salesforce-FuelSDK==1.3.0'
+        'Salesforce-FuelSDK-Sans==1.3.1'
     ],
     extras_require={
         'test': [
