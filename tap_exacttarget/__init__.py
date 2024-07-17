@@ -41,10 +41,10 @@ REQUIRED_CONFIG_KEYS = [
 AVAILABLE_STREAM_ACCESSORS = [
     CampaignDataAccessObject,
     ContentAreaDataAccessObject,
-    DataExtensionDataAccessObject,
+    #DataExtensionDataAccessObject, --Causes Failure
     EmailDataAccessObject,
     EventDataAccessObject,
-    FolderDataAccessObject,
+    #FolderDataAccessObject, --Don't need
     ListDataAccessObject,
     ListSendDataAccessObject,
     ListSubscriberDataAccessObject,
