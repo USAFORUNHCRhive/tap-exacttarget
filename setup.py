@@ -11,7 +11,7 @@ setup(
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['tap_exacttarget'],
     install_requires=[
-        'funcy==1.9.1',
+        'funcy==2.0.0',
         'singer-python==5.12.1',
         'python-dateutil==2.6.0',
         'voluptuous==0.13.1',
